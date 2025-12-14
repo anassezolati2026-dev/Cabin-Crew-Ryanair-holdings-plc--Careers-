@@ -50,8 +50,15 @@
         </nav>
     </header>
 
-    <div class="hero-section-crew text-white flex items-center justify-center p-12 shadow-inner border-b-4 border-yellow-400">
-        <div class="text-center max-w-4xl">
+<div class="hero-section-crew text-white flex items-center justify-center p-12 shadow-inner border-b-4 border-yellow-400 relative"
+         style="background-image: url('cabincrew_background.png'); 
+                background-size: cover; 
+                background-position: center; 
+                background-color: #003580;">
+        
+        <div class="absolute inset-0 bg-[#003580] opacity-70"></div> 
+        
+        <div class="text-center max-w-4xl relative z-10">
             <h1 class="text-5xl font-extrabold mb-3 tracking-tight">
                 Become a Ryanair Cabin Crew Member
             </h1>
@@ -62,7 +69,7 @@
                 Apply Now!
             </a>
         </div>
-    </div>
+</div>
 
     <main class="max-w-7xl mx-auto p-6 md:p-12">
         
@@ -134,3 +141,4 @@
 </body>
 
 </html>
+
